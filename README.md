@@ -1,4 +1,4 @@
-# 📸 AffinityFlow
+# 📸 AffinityFlow (In progress)
 
 A lightweight, fast, and intuitive photo cataloging tool designed for photographers who use **Affinity Photo** but miss the powerful cataloging and batch workflow features of Lightroom Classic.
 
