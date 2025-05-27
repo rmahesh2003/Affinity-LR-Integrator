@@ -12,6 +12,16 @@ Affinity Photo is a powerful image editor — but it lacks a built-in library, R
 
 AffinityFlow bridges that gap.
 
+🧠 What Problem Are We Solving?
+
+| Problem                    | Solution AffinityFlow Offers                        |
+| -------------------------- | ----------------------------------------------- |
+| No catalog in Affinity     | Full-featured image organizer                   |
+| Can’t manage large shoots  | Bulk import, preview, tag, rate                 |
+| No RAW batch workflow      | Preview and prep before Affinity edit           |
+| No roundtrip support       | One-click open into Affinity                    |
+| Lightroom is too expensive | \$0 or low-cost one-time buy for Affinity users |
+
 ---
 
 ## 🚀 Features
