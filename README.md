@@ -4,6 +4,7 @@ A lightweight, fast, and intuitive photo cataloging tool designed for photograph
 
 AffinityFlow lets you organize, rate, preview, tag, and batch-export RAW photos — and seamlessly open them in **Affinity Photo** for final edits.
 
+
 ---
 
 ## 🎯 Why AffinityFlow?
@@ -136,3 +137,6 @@ affinity-flow/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+#Note 
+This app currently only works on MacOS, please stay tuned for Windows
