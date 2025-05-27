@@ -1,0 +1,22 @@
+/* Custom styles for App component */
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.photo-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-card:hover {
+  transform: scale(1.02);
+}
+
+.star-rating button {
+  transition: color 0.2s ease-in-out;
+}
+
+.star-rating button:hover {
+  transform: scale(1.1);
+} 

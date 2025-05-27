@@ -17,7 +17,7 @@ AffinityFlow bridges that gap.
 | Problem                    | Solution AffinityFlow Offers                        |
 | -------------------------- | ----------------------------------------------- |
 | No catalog in Affinity     | Full-featured image organizer                   |
-| Can’t manage large shoots  | Bulk import, preview, tag, rate                 |
+| Can't manage large shoots  | Bulk import, preview, tag, rate                 |
 | No RAW batch workflow      | Preview and prep before Affinity edit           |
 | No roundtrip support       | One-click open into Affinity                    |
 | Lightroom is too expensive | \$0 or low-cost one-time buy for Affinity users |
@@ -71,3 +71,68 @@ npm install
 
 # Run Electron app
 npm start
+
+```
+
+## Development Setup
+
+### Prerequisites
+
+- Node.js 16.x or later
+- npm 7.x or later
+- Affinity Photo installed
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/affinity-flow.git
+cd affinity-flow
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+### Building for Production
+
+To build the application for your platform:
+
+```bash
+npm run build
+```
+
+This will create a distributable package in the `dist` directory.
+
+## Project Structure
+
+```
+affinity-flow/
+├── src/
+│   ├── main/           # Electron main process
+│   │   ├── main.js     # Main process entry
+│   │   └── db/         # Database operations
+│   └── renderer/       # React frontend
+│       ├── components/ # React components
+│       └── App.js      # Main React component
+├── public/             # Static assets
+└── package.json        # Project configuration
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
